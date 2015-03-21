@@ -1,5 +1,5 @@
 import unicodedata
-
+from scrapy.conf import settings
 class Targets(object):
 
 	
@@ -9,7 +9,7 @@ class Targets(object):
 		self.createListOfRequest()
 
 	def createListOfRequest(self):
-		for i in range(1,585):
+		for i in range(1,settings['MAX_URL']):
 			word = str(i) + ''
 			if (len(word)< 10):
 				for j in range(len(word),10):
