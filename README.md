@@ -19,7 +19,7 @@ The purpose of this project is to make a Scrapping for information from the data
 
 Based on Python using the http://scrapy.org/ framework.
 
-After cloning the repository is initialized using scrapy crawl oportunitiesBook within Tsuchigumo
+After cloning the repository is initialized using `scrapy crawl oportunitiesBook` within `Tsuchigumo`
 
 
 
