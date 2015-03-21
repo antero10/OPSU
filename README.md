@@ -1,4 +1,4 @@
-# OPSU
+# OPSU Project
 ## Spanish
 Web scrapping al libro de oportunidades universitarias. Obtener datos de las universidades de venezuela.
 
