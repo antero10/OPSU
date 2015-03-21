@@ -7,4 +7,7 @@ de Venezuela para estudios estadisticos.
 Basado en Python usando el framework http://scrapy.org/.
 
 
+Luego de clonar el repositorio se inicializa usando `scrapy crawl oportunitiesBook` dentro de `Tsuchigumo`
+
+
 
