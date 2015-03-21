@@ -1,4 +1,5 @@
-import unicode
+import unicodedata
+
 class Targets(object):
 
 	
@@ -21,4 +22,4 @@ class Targets(object):
 
 	def remove_accents(self,input_str):
 		nkfd_form = unicodedata.normalize('NFKD', input_str)
-		return u"".join([c for c in nkfd_form if not unicodedata.combining(c)])
+		return "".join([c for c in nkfd_form if not unicodedata.combining(c)])

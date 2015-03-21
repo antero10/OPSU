@@ -16,5 +16,5 @@ class TsuchigumoItem(scrapy.Item):
     category = scrapy.Field()
     direction =  scrapy.Field()
     contact = scrapy.Field()
-
+    state = scrapy.Field()
     
