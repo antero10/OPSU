@@ -4,7 +4,7 @@
 ---
 ##Intro
 
-Para inicializar el proyecto se debe inicializar los spiders de scrapy usando `scrapy crawl oportunitiesBook`, esto hara 3 pasos principales:
+Para inicializar el proyecto se debe iniciar los spiders de scrapy usando el comando `scrapy crawl oportunitiesBook`, esto hara 3 pasos principales:
 
 * Paso Uno : Encontrara 585 posibles universidades, variable guardada en el settings.py como `MAX_URL`
 * Paso Dos: Extraera del HTML, toda la informacion necesaria como: nombre, direccion, estado y carreras 
